@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="container-fluid logo">
                     <p class="lmain">Caylin James</p>
-                    <p class="lsub">Web Developer Seeking Internship</p>
+                    <p class="lsub">Web Developer - Seeking Internship</p>
                 </div>
             </div>
             <div class="row">
@@ -102,7 +102,7 @@
                     <div class="about-content box-content" style="display: block;">
                         <h2>About Me</h2>
                         <div class="border"></div>
-                        <img src="img/avatar.png" class="profile">
+                        <img src="img/smallpic.jpg" class="profile">
                         <div class="social-icons">
                             <a href="#"><i class="icon-social-google"></i>&nbsp;</a>
                             <a href="#"><i class="icon-social-linkedin"></i>&nbsp;</a>
