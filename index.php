@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <a name="top" id="top"></a>
     <header>
         <div class="container">
             <div class="row">
@@ -77,7 +78,7 @@
                     </div>
                     <div class="box">
                         <div class="contact-box slider-box">
-                            <a href="#location" class="anchorLink">
+                            <a href="#location" class="anchorLink" id="contact-content">
                                 <p class="top">Contact Me</p>
                                 <p class="mid"></p>
                                 <p class="bot">Send me a message</p>
@@ -99,7 +100,7 @@
                     <a name="location" id="location"></a>
                 </div>
                 <div class="container-fluid">
-                    <div class="about-content box-content" style="display: block;">
+                    <div class="about-content box-content" style="display: none;">
                         <h2>About Me</h2>
                         <div class="border"></div>
                         <img src="img/smallpic.jpg" class="profile">
@@ -110,12 +111,91 @@
                             <a href="http://www.soundcloud.com/pwnrod" target="_blank"><i class="icon-social-soundcloud"></i>&nbsp;</a>
                             <a href="#"></a>
                         </div>
-                        <p>I am a Computer Information Technologies student student at Jefferson Community and Technical College. I specialize in Web Development and have a great understanding of the object oriented methodology. I'm expected to graduate in Summer 2017 and I'm actively seeking an internship as the final class to finish out my associate's degree.</p>
+                        <p>I am a Computer Information Technologies student at Jefferson Community and Technical College. I specialize in Web Development and have a great understanding of the object oriented methodology. I'm expected to graduate in Summer 2017 and I'm actively seeking an internship as the final class to finish out my associate's degree.</p>
                         <div class="clearfix"></div>
                     </div>
                 </div>
+                <div class="container-fluid">
+                  <div class="contact-content box-content" style="display: none;">
+                    <h2>Contact Me</h2>
+                    <div class="border"></div>
+                    <div class="contact">
+                      <div class="row">
+                        <div class="col-sm-6">
+
+                          <form class="form-horizontal" action="" method="post">
+                            <input type="hidden" name="post-submit" value="1">
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label" for="name">Name</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control" name="name" id="name">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label" for ="email">Email</label>
+                              <div class="col-sm-10">
+                                <input type="email" class="form-control" name="email" id="email">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label" for ="number">Number</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control" name="number" id="number">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label" for ="comment">Comment</label>
+                              <div class="col-sm-10">
+                                <textarea class="form-control" name="comment" id="comment" rows="3"></textarea>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" name="submit" class="btn btn-default">Submit</button>
+                                <button type="reset" class="btn btn-default">Reset</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="address">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <address>
+                                  Caylin P. James<br />
+                                  152 Superior Ct.<br />
+                                  Shepherdsville, KY 40165<br />
+                                </address>
+                              </div>
+                              <div class="col-sm-6">
+                                <address>
+                                  Caylin P. James<br />
+                                  hearyoume9876@gmail.com<br />
+                                  Cell: (502) 216-2488<br />
+                                </address>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="back-to-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="to-top">
+              <a href="#top" class="to-top anchorLink"><i class="fa fa-arrow-circle-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>
