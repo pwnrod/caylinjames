@@ -1,16 +1,28 @@
 <?php
+require 'vendor/autoload.php';
+use Mailgun\Mailgun;
+$mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter\Guzzle6\Client());
 
-  if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if(isset($_POST['submit'])) {
-      empty($_POST['name']) ? $name = " - " : $name = $_POST['name'];
-      empty($_POST['email']) ? $email = " - " : $email = $_POST['email'];
-      empty($_POST['number']) ? $number = " - " : $number = $_POST['number'];
-      empty($_POST['comment']) ? $comment = " - " : $comment = $_POST['comment'];
-    }
+  if (isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $comment = $_POST['comment'];
 
-    mail("hearyoume9876@gmail.com", "New Message Recieved From Website!", $comment, "From: " . $email);
+    $content = "Sender: " . $name . " // Number: " . $number .
+              " // Message: " . $comment;
+
+    $result = $mailgun->sendMessage('caylinjames.com', [
+      'from' => $email,
+      'to' => 'hearyoume9876@gmail.com',
+      'subject' => 'Email From Website!',
+      'text' => $content,
+    ]);
   }
-?>
+
+
+
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,7 +71,7 @@
             </div>
             <div class="row">
                 <div class="container-fluid quickInfo">
-                    <!--  <a href="#"><i class="fa fa-download">&nbsp;</i>Download My Resume</a> -->
+                    <a href="files/CaylinJamesResume.pdf"><i class="fa fa-download">&nbsp;</i>Download My Resume</a>
                     <a href="tel:5022162488"><i class="fa fa-phone">&nbsp;</i>(502)-216-2488</a>
                     <a href="mailto:hearyoume9876@gmail.com"><i class="fa fa-envelope">&nbsp;</i>Contact Me Now</a>
                 </div>
@@ -219,7 +231,7 @@
                       <div class="row">
                         <div class="col-sm-6">
 
-                          <form class="form-horizontal" action="index.php" method="post">
+                          <form class="form-horizontal" action="#" method="post">
                             <input type="hidden" name="post-submit" value="1">
                             <div class="form-group">
                               <label class="col-sm-2 control-label" for="name">Name</label>
@@ -236,7 +248,7 @@
                             <div class="form-group">
                               <label class="col-sm-2 control-label" for ="number">Number</label>
                               <div class="col-sm-10">
-                                <input type="text" class="form-control" name="number" id="number">
+                                <input type="text" class="form-control" name="number" id="number" required>
                               </div>
                             </div>
                             <div class="form-group">
