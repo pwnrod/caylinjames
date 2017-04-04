@@ -145,7 +145,7 @@ nav .container {
 }
 
 .about-box {
-    border-radius: 2px;
+    border-radius: 10px 10px 10px 10px;
     background: #23746b;
     background: -webkit-linear-gradient(left, #23746b, #45968d, #23746b);
     background: -moz-linear-gradient(left, #23746b, #45968d, #23746b);
@@ -158,7 +158,7 @@ nav .container {
 }
 
 .resume-box {
-    border-radius: 2px;
+    border-radius: 10px 10px 10px 10px;
     background: #359a70;
     background: -webkit-linear-gradient(left, #359a70, #57bc90, #359a70);
     background: -moz-linear-gradient(left, #359a70, #57bc90, #359a70);
@@ -171,7 +171,7 @@ nav .container {
 }
 
 .portfolio-box {
-    border-radius: 2px;
+    border-radius: 10px 10px 10px 10px;
     background: #55a7b2;
     background: -webkit-linear-gradient(left, #55a7b2, #77c9d4, #55a7b2);
     background: -moz-linear-gradient(left, #55a7b2, #77c9d4, #55a7b2);
@@ -184,7 +184,7 @@ nav .container {
 }
 
 .contact-box {
-    border-radius: 2px;
+    border-radius: 10px 10px 10px 10px;
     background: #fa7700;
     background: -webkit-linear-gradient(left, #fa7700, #f9aa4f, #fa7700);
     background: -moz-linear-gradient(left, #fa7700, #f9aa4f, #fa7700);
@@ -211,7 +211,7 @@ nav .container {
 }
 
 .about-content {
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 10px 0px;
     background: #23746b;
     box-shadow: inset 0 0 1px #000;
@@ -259,7 +259,7 @@ nav .container {
 
 /*** RESUME ***/
 .resume-content {
-  border-radius: 2px;
+  border-radius: 5px;
   margin: 10px 0;
   background: #359a70;
   box-shadow: inset 0 0 1px #000;
@@ -299,7 +299,7 @@ nav .container {
 
 /*** PORTFOLIO ***/
 .portfolio-content {
-  border-radius: 2px;
+  border-radius: 5px;
   margin: 10px 0;
   background: #55a7b2;
   box-shadow: inset 0 0 1px #000;
@@ -314,7 +314,7 @@ nav .container {
 /*** CONTACT ***/
 
 .contact-content {
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 10px 0px;
     background: #fa7700;
     box-shadow: inset 0 0 1px #000;

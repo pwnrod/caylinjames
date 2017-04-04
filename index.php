@@ -51,7 +51,7 @@
               <div class="col-sm-12 flexslider">
 
                   <ul class="slides">
-                    <li><a href=""><img src="img/image_1.jpg"></a></li>
+                    <li><a href=""><img src="img/image_1.png"></a></li>
                     <li><a href=""><img src="img/image_2.png"></a></li>
                   </ul>
 
@@ -206,7 +206,8 @@
                     <h2>Portfolio</h2>
                     <div class="border"></div>
                     <div class="portfolio">
-
+                      <h4>Work in progress!</h4>
+                      <p>I've currently got a few projects in the works. Check back soon!</p>
                     </div>
                   </div>
                 </div>
