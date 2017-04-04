@@ -122,7 +122,7 @@ nav .container {
 
 .box {
     width: 24%;
-    margin: 10px 0.5%;
+    margin: 10px 0.36%;
     float: left;
     text-align: center;
     text-shadow: 0 0 2px #000;
@@ -359,6 +359,7 @@ footer .container {
 }
 
 footer .social {
+    padding-left: 100px;
     margin-top: 5px;
 }
 
@@ -385,12 +386,14 @@ footer .social a:hover {
 
 @media (max-width: 480px) {
     header{
-        margin-left: -20px;
-        margin-right: -20px;
+
     }
     header .quickInfo a{
         display:block;
         margin:5px 0px;
+    }
+    nav .container .row {
+      margin: 0;
     }
     .box {
       width: 100% !important;
@@ -413,6 +416,9 @@ footer .social a:hover {
     }
     .social a{
       font-size: 16px !important;
+    }
+    footer .container .row {
+      margin: 0;
     };
 }
 
@@ -447,13 +453,19 @@ footer .social a:hover {
     }
     .about-box, .resume-box, .portfolio-box, .contact-box {
       padding: 15px 0 5px 0;
+    }
+    footer .social {
+        padding-left: 0px !important;
     };
 }
 
 
-@media (min-width: 768px) and (max-width: 979px){
+@media (min-width: 768px) and (max-width: 991px){
+  footer .social {
+    padding-left: 35px !important;
+  }
 }
 
-@media (max-width: 979px){
+@media (max-width: 991px){
 
 }

@@ -70,7 +70,7 @@
     <nav>
         <div class="container">
             <div class="row">
-                <div class="container-fluid">
+
                   <div class="navs">
 
                     <div class="box">
@@ -114,7 +114,7 @@
                         <div class="clearfix"></div>
                     </div>
                   </div>
-                </div>
+
             </div>
         </div>
     </nav>
@@ -297,10 +297,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <p>Copyright &copy; 2017 - Caylin James</p>
                 </div>
-                <div class="col-sm-3 col-sm-offset-5">
+                <div class="col-sm-4 col-sm-offset-5">
                     <div class="social">
                         <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><i class="icon-social-google"></i></a>
                         <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><i class="icon-social-linkedin"></i></a>
