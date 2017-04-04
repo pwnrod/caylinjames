@@ -51,8 +51,8 @@
               <div class="col-sm-12 flexslider">
 
                   <ul class="slides">
-                    <li><a href=""><img src="img/image_1.png"></a></li>
-                    <li><a href=""><img src="img/image_2.png"></a></li>
+                    <li><a href=""><img src="img/image_1.jpg"></a></li>
+                    <li><a href=""><img src="img/image_2.jpg"></a></li>
                   </ul>
 
               </div>
