@@ -45,6 +45,7 @@ a, a:visited {
 /*** HEADER STYLES ***/
 
 header .container {
+    background: #191919;
     background: -webkit-linear-gradient(left, #0f0f0f, #3a3a3a, #0f0f0f);
     border-radius: 3px;
     box-shadow: 0px 5px 15px #111;
@@ -118,7 +119,7 @@ header .quickInfo a {
 
 .box {
     width: 24%;
-    margin: 10px 0.5%;
+    margin: 10px .5%;
     float: left;
     text-align: center;
     text-shadow: 0 0 2px #000;
@@ -355,7 +356,7 @@ footer .container {
 }
 
 footer .social {
-    padding-left: 100px;
+    padding-left: 90px;
     margin-top: 5px;
 }
 
@@ -390,6 +391,9 @@ footer .social a:hover {
     }
     nav .container .row {
       margin: 0;
+    }
+    #tabs {
+      padding: 0 !important;
     }
     .box {
       width: 100% !important;
@@ -432,6 +436,9 @@ footer .social a:hover {
     header .logo p.lsub {
         font-size: 15px;
     }
+    #tabs {
+     padding-left: 5px !important;
+    }
     .box {
       width: 48%;
       margin: 5px 0.7%;
@@ -452,14 +459,18 @@ footer .social a:hover {
     }
     footer .social {
         padding-left: 0px !important;
+    }
+    #fcontent {
+        max-width: 746px;
+        padding-right: 0px !important;
     };
 }
 
 
 @media (min-width: 768px) and (max-width: 991px){
-  footer .social {
-    padding-left: 35px !important;
-  };
+footer .social {
+    padding-left: 30px !important;
+};
 }
 
 @media (max-width: 991px){

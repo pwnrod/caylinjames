@@ -81,7 +81,7 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
 
     <nav>
         <div class="container">
-            <div class="row">
+            <div class="row" id="tabs">
 
                   <div class="navs">
 
@@ -308,11 +308,11 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="clearfix">
+                <div class="col-sm-4" >
                     <p>Copyright &copy; 2017 - Caylin James</p>
                 </div>
-                <div class="col-sm-4 col-sm-offset-5">
+                <div class="col-sm-4 col-sm-offset-4">
                     <div class="social">
                         <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><i class="icon-social-google"></i></a>
                         <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><i class="icon-social-linkedin"></i></a>
