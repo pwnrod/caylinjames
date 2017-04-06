@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'config.php';
+require_once 'config.php';
 
 use Mailgun\Mailgun;
 $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
