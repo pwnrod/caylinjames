@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
-$mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter\Guzzle6\Client());
+$mailgun = new Mailgun('', new \Http\Adapter\Guzzle6\Client());
 
   if (isset($_POST['submit'])){
     $name = $_POST['name'];
