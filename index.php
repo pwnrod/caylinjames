@@ -1,7 +1,9 @@
 <?php
 require 'vendor/autoload.php';
+require 'config.php';
+
 use Mailgun\Mailgun;
-$mailgun = new Mailgun('', new \Http\Adapter\Guzzle6\Client());
+$mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
 
   if (isset($_POST['submit'])){
     $name = $_POST['name'];
@@ -254,43 +256,43 @@ $mailgun = new Mailgun('', new \Http\Adapter\Guzzle6\Client());
                     <div class="border"></div>
                     <div class="contact">
                       <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-7">
 
                           <form class="form-horizontal" action="#" method="post">
                             <input type="hidden" name="post-submit" value="1">
                             <div class="form-group">
-                              <label class="col-sm-2 control-label" for="name">Name</label>
-                              <div class="col-sm-10">
+                              <label class="col-sm-3 control-label" for="name">Name</label>
+                              <div class="col-sm-9">
                                 <input type="text" class="form-control" name="name" id="name" required>
                               </div>
                             </div>
                             <div class="form-group">
-                              <label class="col-sm-2 control-label" for ="email">Email</label>
-                              <div class="col-sm-10">
+                              <label class="col-sm-3 control-label" for ="email">Email</label>
+                              <div class="col-sm-9">
                                 <input type="email" class="form-control" name="email" id="email" required>
                               </div>
                             </div>
                             <div class="form-group">
-                              <label class="col-sm-2 control-label" for ="number">Number</label>
-                              <div class="col-sm-10">
+                              <label class="col-sm-3 control-label" for ="number">Number</label>
+                              <div class="col-sm-9">
                                 <input type="text" class="form-control" name="number" id="number" required>
                               </div>
                             </div>
                             <div class="form-group">
-                              <label class="col-sm-2 control-label" for ="comment">Comment</label>
-                              <div class="col-sm-10">
+                              <label class="col-sm-3 control-label" for ="comment">Comment</label>
+                              <div class="col-sm-9">
                                 <textarea class="form-control" name="comment" id="comment" rows="3" required></textarea>
                               </div>
                             </div>
                             <div class="form-group">
-                              <div class="col-sm-offset-2 col-sm-10">
+                              <div class="col-sm-offset-3 col-sm-9">
                                 <button type="submit" name="submit" class="btn btn-default">Submit</button>
                                 <button type="reset" class="btn btn-default">Reset</button>
                               </div>
                             </div>
                           </form>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-5">
                           <div class="address">
                             <div class="row">
                               <div class="col-sm-12">
