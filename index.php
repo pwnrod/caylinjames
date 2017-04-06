@@ -293,15 +293,11 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
                         <div class="col-sm-6">
                           <div class="address">
                             <div class="row">
-                              <div class="col-sm-6">
+                              <div class="col-sm-12">
                                 <address>
                                   Caylin P. James<br />
                                   hearyoume9876@gmail.com<br />
-                                  Cell: (502) 216-2488<br />
-                                </address>
-                              </div>
-                              <div class="col-sm-6">
-                                <address>
+                                  Cell: (502) 216-2488<br /><br />
                                   152 Superior Ct.<br />
                                   Apartment 8<br />
                                   Shepherdsville, KY 40165<br />
