@@ -152,6 +152,13 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
                         </div>
                         <p>I am a Computer Information Technologies student at Jefferson Community and Technical College. I specialize in Web Development and have a great understanding of the object oriented methodology. I'm expected to graduate in Summer 2017 and I'm actively seeking an internship as the final class to finish out my associate's degree.</p>
                         <div class="clearfix"></div>
+                        <div class="border"></div>
+                        <h3>Hobbies</h3>
+                        <p>When I'm not writing code, I enjoy a number of different passtimes. I'm an avid pc gamer (most recently: NieR:Automata), high fantasy reader (most recently: ASoIaF: A Storm of Swords) and tech tinkerer (most recently: modded a gameboy DMG with a backlight and cleaner audio jack for producing authentic 8-bit music). I'm also a multi-instrumetalist with 10+ years experience. You can check out one of my tracks below:</p>
+                        <div class="player">
+                          <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192179900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
                 <div class="container-fluid">
@@ -168,7 +175,7 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
                             <h4>Jefferson Community and Technical College - Louisville, KY</h4>
                             <p class="tag">Computer Information Technology - Programming Track with a focus in Web Development Technologies 2015 - 2017</p>
                             <p>Dean's List for 4 consecutive full-time semesters.</p>
-                            <p>Recipient of the Outstanding Achievement Award for the Computer & Information Technologies program for the 2016-2017 school year.</p>
+                            <p>Recipient of the <strong>Outstanding Achievement Award for the Computer & Information Technologies program</strong> for the 2016-2017 school year.</p>
                           </div>
                         </div>
                       </div>
@@ -182,33 +189,51 @@ $mailgun = new Mailgun('key-2d0dd887218f2a9eb8d29033bc3856ab', new \Http\Adapter
                             <h4>Web Developer</h4>
                             <p class="tag">Languages</p>
                             <div class="skills">
-                              <a href="www.php.net"><span class="skill">PHP</span></a>
-                              <a href="#"><span class="skill">MySQL</span></a>
-                              <a href="#"><span class="skill">HTML5</span></a>
-                              <a href="#"><span class="skill">CSS3</span></a>
-                              <a href="#"><span class="skill">JavaScript</span></a>
-                              <a href="#"><span class="skill">C#</span></a>
-                              <a href="#"><span class="skill">C++</span></a>
+                              <a href="http://www.php.net" target="_blank"><span class="skill">PHP</span></a>
+                              <a href="https://www.mysql.com/" target="_blank"><span class="skill">MySQL</span></a>
+                              <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><span class="skill">HTML5</span></a>
+                              <a href="https://www.w3schools.com/css/css3_intro.asp" target="_blank"><span class="skill">CSS3</span></a>
+                              <a href="https://www.javascript.com/" target="_blank"><span class="skill">JavaScript</span></a>
+                              <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx" target="_blank"><span class="skill">C#</span></a>
+                              <a href="http://www.cplusplus.com/" target="_blank"><span class="skill">C++</span></a>
                             </div>
                             <p class="tag">Frameworks</p>
                             <div class="skills">
-                              <a href="#"><span class="skill">Bootstrap</span></a>
-                              <a href="#"><span class="skill">jQuery</span></a>
+                              <a href="http://getbootstrap.com/" target="_blank"><span class="skill">Bootstrap</span></a>
+                              <a href="https://jquery.com/" target="_blank"><span class="skill">jQuery</span></a>
                             </div>
                             <p class="tag">IDE's</p>
                             <div class="skills">
-                              <a href="#"><span class="skill">Atom</span></a>
-                              <a href="#"><span class="skill">Sublime Text 3</span></a>
-                              <a href="#"><span class="skill">Visual Studio</span></a>
-                              <a href="#"><span class="skill">Eclipse</span></a>
+                              <a href="https://atom.io/" target="_blank"><span class="skill">Atom</span></a>
+                              <a href="https://www.sublimetext.com/3" target="_blank"><span class="skill">Sublime Text 3</span></a>
+                              <a href="https://www.visualstudio.com/" target="_blank"><span class="skill">Visual Studio</span></a>
+                              <a href="https://eclipse.org/" target="_blank"><span class="skill">Eclipse</span></a>
                             </div>
                             <p class="tag">Other Skills</p>
                             <div class="skills">
-                              <a href="#"><span class="skill">Git</span></a>
-                              <a href="#"><span class="skill">Terminal</span></a>
+                              <a href="https://github.com/" target="_blank"><span class="skill">Git</span></a>
+                              <a href="https://help.ubuntu.com/community/UsingTheTerminal" target="_blank"><span class="skill">Terminal</span></a>
                             </div>
                           </div>
                         </div>
+                      </div>
+                      <div class="border"></div>
+                      <div class="row">
+
+                        <div class="col-sm-3">
+                          <h3>Work Experience</h3>
+                        </div>
+                        <div class="col-sm-9">
+                          <div class="rcontent">
+                            <h4>Dangerous Goods Specialist<span class="pull-right">FedEx</span></h4>
+                            <h5>Handling Hazardous Materials
+                            <span class="pull-right">July 2011 - Present</span></h5>
+                            <p class="tag">I handle the inspecting, tracking, and loading of hazardous materials using various FedEx systems. I work closely with a small team that deals with all dangerous goods for the entire facility. We operate carefully and swiftly to meet nightly plane departure deadlines.</p>
+                            <h4>Web Developer</h4>
+                            <p class="tag">I look forward to filling this section with information from your company! </p>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
                   </div>
