@@ -35,7 +35,7 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Caylin James</title>
-    <link href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Open+Sans|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -65,8 +65,8 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
               <div class="col-sm-12 flexslider">
 
                   <ul class="slides">
-                    <li><a href=""><img src="img/image_1.jpg"></a></li>
-                    <li><a href=""><img src="img/image_2.jpg"></a></li>
+                    <li><img src="img/image_1.jpg"></li>
+                    <li><img src="img/image_2.jpg"></li>
                   </ul>
 
               </div>
@@ -154,7 +154,7 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                         </div>
                         <p>I am a Computer Information Technologies student at Jefferson Community and Technical College. I specialize in Web Development and have a great understanding of the object oriented methodology. I'm expected to graduate in Summer 2017 and I'm actively seeking an internship as the final class to finish out my associate's degree.</p>
                         <div class="clearfix"></div>
-                        <div class="border"></div>
+                        <div class="border" id="b1"></div>
                         <h3>Hobbies</h3>
                         <p>When I'm not writing code, I enjoy a number of different passtimes. I'm an avid pc gamer (most recently: NieR:Automata), high fantasy reader (most recently: ASoIaF: A Storm of Swords) and tech tinkerer (most recently: modded a gameboy DMG with a backlight and cleaner audio jack for producing authentic 8-bit music). I'm also a multi-instrumetalist with 10+ years experience. You can check out one of my tracks below:</p>
                         <div class="player">
@@ -192,7 +192,7 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                             <p class="tag">Languages</p>
                             <div class="skills">
                               <a href="http://www.php.net" target="_blank"><span class="skill">PHP</span></a>
-                              <a href="https://www.mysql.com/" target="_blank"><span class="skill">MySQL</span></a>
+                              <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank"><span class="skill">SQL</span></a>
                               <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><span class="skill">HTML5</span></a>
                               <a href="https://www.w3schools.com/css/css3_intro.asp" target="_blank"><span class="skill">CSS3</span></a>
                               <a href="https://www.javascript.com/" target="_blank"><span class="skill">JavaScript</span></a>
@@ -231,6 +231,7 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                             <h5>Handling Hazardous Materials
                             <span class="pull-right">July 2011 - Present</span></h5>
                             <p class="tag">I handle the inspecting, tracking, and loading of hazardous materials using various FedEx systems. I work closely with a small team that deals with all dangerous goods for the entire facility. We operate carefully and swiftly to meet nightly plane departure deadlines.</p>
+                            <div class="border"></div>
                             <h4>Web Developer</h4>
                             <p class="tag">I look forward to filling this section with information from your company! </p>
                           </div>
