@@ -65,8 +65,9 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
               <div class="col-sm-12 flexslider">
 
                   <ul class="slides">
-                    <li><img src="img/image_1.jpg"></li>
-                    <li><img src="img/image_2.jpg"></li>
+                    <li><img src="img/image-1.jpg" alt=""></li>
+                    <li><img src="img/image-2.jpg" alt=""></li>
+                    <li><img src="img/image-3.jpg" alt=""></li>
                   </ul>
 
               </div>
@@ -147,16 +148,16 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                         <div class="border"></div>
                         <img src="img/smallpic.jpg" class="profile">
                         <div class="social-icons">
-                            <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><i class="icon-social-google"></i>&nbsp;</a>
-                            <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><i class="icon-social-linkedin"></i>&nbsp;</a>
-                            <a href="https://github.com/pwnrod" target="_blank"><i class="icon-social-github"></i>&nbsp;</a>
-                            <a href="http://www.soundcloud.com/pwnrod" target="_blank"><i class="icon-social-soundcloud"></i>&nbsp;</a>
+                            <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><img src="img/Google+.png" /></a>
+                            <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><img src="img/Linkedin.png" /></a>
+                            <a href="https://github.com/pwnrod" target="_blank"><img src="img/Github.png" /></a>
+                            <a href="http://www.soundcloud.com/pwnrod" target="_blank"><img src="img/Soundcloud.png" /></i></a>
                         </div>
                         <p>I am a Computer Information Technologies student at Jefferson Community and Technical College. I specialize in Web Development and have a great understanding of the object oriented methodology. I'm expected to graduate in Summer 2017 and I'm actively seeking an internship as the final class to finish out my associate's degree.</p>
                         <div class="clearfix"></div>
                         <div class="border" id="b1"></div>
                         <h3>Hobbies</h3>
-                        <p>When I'm not writing code, I enjoy a number of different passtimes. I'm an avid pc gamer (most recently: NieR:Automata), high fantasy reader (most recently: ASoIaF: A Storm of Swords) and tech tinkerer (most recently: modded a gameboy DMG with a backlight and cleaner audio jack for producing authentic 8-bit music). I'm also a multi-instrumetalist with 10+ years experience. You can check out one of my tracks below:</p>
+                        <p>When I'm not writing code, I enjoy a number of different passtimes. I'm an avid pc gamer (most recently: <a href="http://nier-automata.com/agegate.php">NieR:Automata</a>), high fantasy reader (most recently: <a href="http://awoiaf.westeros.org/index.php/A_Storm_of_Swords">ASoIaF: A Storm of Swords</a>) and tech tinkerer (most recently: modded a gameboy DMG with a <a href="http://www.instructables.com/id/Game-Boy-Backlight-DIY/">backlight</a> and <a href="https://snapguide.com/guides/mod-your-dmg-gameboy-with-prosound-stereo-jack/">cleaner audio jack</a> for producing authentic 8-bit music). I'm also a multi-instrumentalist with 10+ years experience. You can check out one of my tracks below:</p>
                         <div class="player">
                           <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192179900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                         </div>
@@ -338,10 +339,10 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                 </div>
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="social">
-                        <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><i class="icon-social-google"></i></a>
-                        <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><i class="icon-social-linkedin"></i></a>
-                        <a href="https://github.com/pwnrod" target="_blank"><i class="icon-social-github"></i></a>
-                        <a href="http://www.soundcloud.com/pwnrod" target="_blank"><i class="icon-social-soundcloud"></i></a>
+                        <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><img src="img/Google+.png" /></a>
+                        <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><img src="img/Linkedin.png" /></a>
+                        <a href="https://github.com/pwnrod" target="_blank"><img src="img/Github.png" /></a>
+                        <a href="http://www.soundcloud.com/pwnrod" target="_blank"><img src="img/Soundcloud.png" /></i></a>
                     </div>
                 </div>
             </div>

@@ -217,6 +217,26 @@ header .quickInfo a {
     border: 1px solid #000;
 }
 
+.about-content a, .about-content a:visited {
+    color: #99ebf6;
+}
+
+.about-content a:hover {
+    color: #bbb;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+    text-decoration: none;
+}
+
+.social-icons a img {
+    max-width: 35px;
+    height: auto;
+    border: solid 1px #bbb;
+    border-radius: 4px;
+}
+
 .about-content h2, .about-content h3 {
     margin-top: 0;
 }
@@ -235,18 +255,8 @@ header .quickInfo a {
 }
 
 .social-icons {
-    font-size: 25px;
     margin-top: 30px;
     margin-bottom: 15px;
-}
-
-.social-icons a, .social-icons a:visited {
-    color: #fff ;
-    text-decoration: none;
-    -webkit-transition: color 1s ease;
-    -moz-transition: color 1s ease;
-    -o-transition: color 1s ease;
-    transition: color 1s ease;
 }
 
 .social-icons a:hover {
@@ -375,18 +385,26 @@ footer .container {
 }
 
 footer .social {
-    padding-left: 90px;
+    padding-left: 135px;
     margin-top: 5px;
+}
+
+footer .social a img {
+    max-width: 35px;
+    height: auto;
+    border: solid 1px #bbb;
+    border-radius: 4px;
 }
 
 footer .social a {
     color: #ddd;
     font-size: 27px;
     text-align: center;
-    padding: 8px 7px 0 7px;
-    margin: 0 2px;
+    padding: 0px;
+    margin: 0px;
     text-shadow: 0 0 1px #000;
     text-decoration: none;
+    width: 100%;
 }
 
 footer .social a:hover {
@@ -401,9 +419,6 @@ footer .social a:hover {
 /*** RESPONSIVE STYLES ***/
 
 @media (max-width: 480px) {
-    header{
-
-    }
     header .quickInfo a{
         display:block;
         margin:5px 0px;
@@ -433,11 +448,32 @@ footer .social a:hover {
     .about-box, .resume-box, .portfolio-box, .contact-box {
       padding: 10px 0 0 0;
     }
+    .about-content {
+        margin: auto;
+        display: block;
+    }
+    .profile {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .resume-content h4 {
+        font-size: 16px;
+    }
+    .resume-content h5 {
+        font-size: 12px;
+    }
     address {
       font-size: 16px;
     }
-    .social a{
+    .social a {
       font-size: 16px !important;
+    }
+    .social-icons {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 100%;
+      text-align: center;
     }
     footer .container .row {
       margin: 0;
@@ -482,6 +518,7 @@ footer .social a:hover {
     footer .social {
         padding-left: 0px !important;
     }
+
     #fcontent {
         max-width: 746px;
         padding-right: 0px !important;
@@ -491,7 +528,7 @@ footer .social a:hover {
 
 @media (min-width: 768px) and (max-width: 991px){
 footer .social {
-    padding-left: 30px !important;
+    padding-left: 70px !important;
 };
 }
 
