@@ -147,7 +147,7 @@ $mailgun = new Mailgun(MAILGUN_KEY, new \Http\Adapter\Guzzle6\Client());
                     <div class="about-content box-content" style="display: none;">
                         <h2>About Me</h2>
                         <div class="border"></div>
-                        <img src="img/smallpic.jpg" class="profile">
+                        <img src="img/smallpic2.jpg" class="profile">
                         <div class="social-icons">
                             <a href="https://plus.google.com/u/0/+CaylinJames" target="_blank"><img src="img/Google+.png" /></a>
                             <a href="https://www.linkedin.com/in/caylin-james-805a42126/" target="_blank"><img src="img/Linkedin.png" /></a>
